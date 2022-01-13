@@ -1,0 +1,26 @@
+{
+  "name": "mnp-faucet",
+  "version": "1.0.0",
+  "description": "Simple Faucet is a pretty minimalistic faucet for Ethereum-based ERC20 tokens. It's based on a simple smart contract that will allow you to withdraw some tokens every couple of minutes. The amount of tokens and the waiting period can be defined upon deployment of the smart contract. It works with Metamask in your browser, so it's very easy to use.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcaporossi/mnp-faucet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcaporossi/mnp-faucet/issues"
+  },
+  "homepage": "https://github.com/jcaporossi/mnp-faucet#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
